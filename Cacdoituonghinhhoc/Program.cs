@@ -6,7 +6,7 @@ namespace Cacdoituonghinhhoc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("------Shape------");
+            Console.WriteLine("SHAPE");
             Console.WriteLine("Nhap Color :");
             string color = Console.ReadLine();
             Console.WriteLine("Nhap filled (true / false):");
@@ -23,7 +23,7 @@ namespace Cacdoituonghinhhoc
             Shape shape = new Shape(color, filled);
             Console.WriteLine(shape.ToString());
 
-            Console.WriteLine("------Circle------");
+            Console.WriteLine("CIRCLE");
             Console.WriteLine("Nhap ban kinh r :");
             double radius = double.Parse(Console.ReadLine());
             Circle circle = new Circle(radius);
@@ -31,7 +31,7 @@ namespace Cacdoituonghinhhoc
             Console.WriteLine($"Dien tich hinh tron la {circle.getArea()}");
             Console.WriteLine(circle.ToString());
 
-            Console.WriteLine("------Rectangle------");
+            Console.WriteLine("RECTANGLE");
             Console.WriteLine("Nhap width :");
             double width = double.Parse(Console.ReadLine());
             Console.WriteLine("Nhap length :");
